@@ -1,0 +1,182 @@
+body { 
+		background: radial-gradient(circle, #94D2F8, #3A92C8) repeat scroll 0% 0% transparent;
+		margin: 0;
+		padding: 0;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		}
+		
+		/* Make HTML 5 elements display block-level for consistent styling */  
+		header, nav, article, section, aside, footer, address {  
+    	display: block;  
+		} 
+		.wrapper {
+		width: 960px;
+		margin: 10px auto 10px auto;
+		text-align: center;
+		padding: 20px;
+		background: #222;
+		border-radius: 10px;
+		box-shadow: 2px 2px 10px #222;
+		opacity:0.8;
+		filter:alpha(opacity=80); /* For IE8 and earlier */
+		}
+		
+		.logo {
+		background: radial-gradient(circle, #94D2F8, #3A92C8) repeat scroll 0% 0% transparent;
+		border-radius:10px;
+		padding:20px;
+		box-shadow: inset 2px 2px 10px 0px #222;
+		}
+		
+		a{color: #77dff1; text-decoration: none;}
+		
+		@font-face {
+    	font-family: 'LeagueGothicRegular';
+   		src: url('fonts/League_Gothic-webfont.eot');
+    	src: url('fonts/League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/League_Gothic-webfont.woff') format('woff'),
+        url('fonts/League_Gothic-webfont.ttf') format('truetype'),
+        url('fonts/League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
+    	font-weight: normal;
+    	font-style: normal;
+    	}
+		
+		h1 {
+		text-transform: uppercase;
+		color: #006bff;
+		font-family: LeagueGothicRegular;
+		font-size: 80px;
+		font-weight: lighter;
+		text-shadow: 0px 2px 0px #000;
+		margin: 30px 0 0 0;
+		}
+		
+		h2 {
+		text-transform: uppercase;
+		color: #61d2fe;
+		font-family: LeagueGothicRegular;
+		font-size: 24px;
+		font-weight: lighter;
+		text-shadow: 0px 2px 0px #000;
+		margin: 15px 0 15px 20px;
+		text-align: left;
+		}
+		
+		p {
+		color: #fff;
+		margin: 0;
+		font-size: 16px;
+		text-shadow: 0 -2px 0 #000;
+		}
+		
+		p.credit {font-size: 12px; margin-top: 40px; color: #ccc;}
+		
+		.hr {
+		display: block;
+		border: none;
+		width: 960px;
+		height: 2px;
+		background: url(images/divider.png);
+		margin: 10px 0;
+		}
+		
+		.clear {
+		clear: both;
+		}
+		
+		.progress {
+		height: 110px;
+		margin: 80px 0 0 0;
+		background: url(images/progress-container.png) no-repeat;
+		position: relative;
+		}
+		
+		.txt-launch-day-hat {
+		background: url(images/txt-launch-day-hat.png) no-repeat;
+		width: 117px;
+		height: 159px;
+		position: absolute;
+		top: -120px;
+		right: -45px;
+		}
+		
+		.txt-launch-day {
+		background: url(images/txt-launch-day.png) no-repeat;
+		width: 112px;
+		height: 110px;
+		position: absolute;
+		top: -80px;
+		right: -40px;
+		}
+		
+		.progress-bar {
+		height: 43px;
+		background: #72dbf1 url(images/progress-bar.png) repeat-x;
+		position: absolute;
+		top:14px;
+		left: 0px;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		}
+		
+		.progress-bar-container {
+		width: 930px;
+		height: 70px;
+		margin-left: 13px;
+		position: relative;
+		}
+		
+		.mailing-list h2 {
+		width: 400px;
+		float: left;
+		}
+		
+		.mailing-list form {
+		display: block;
+		width: 450px;
+		float: right;
+		margin: 5px 0 0 0;
+		}
+		
+		.mailing-list input[type=text]{
+		width:280px;
+		height: 16px;
+		background: url(images/form-bg.png) no-repeat;
+		border: none;
+		color: #c9c9c9;
+		font-size: 14px;
+		padding: 15px 10px;
+		margin: 0;
+		}
+		
+		.mailing-list input[type=submit]{
+		width:90px;
+		height: 44px;
+		background: url(images/btn-subscribe.png) no-repeat;
+		border: none;
+		text-indent: -5000px;
+		cursor: pointer;
+		margin: 0 0 0 -10px;
+		text-transform: capitalize;1
+		}
+		
+		.mailing-list input[type=submit]:hover{
+		background-position: 0 -44px;
+		}
+		
+		.mailing-list input[type=submit]:active{
+		background-position: 0 -88px;
+		}
+		
+		.mailing-list input[type=text]:focus {
+		outline: none;
+		}
+		
+		.tipsy { margin-bottom: 25px; font-size: 18px; opacity: 0.8; filter: alpha(opacity=80); background-repeat: no-repeat;  background-image: url(images/tipsy.png); font-family: 'LeagueGothicRegular'; text-transform: uppercase;  }
+  		.tipsy-inner { padding: 10px 20px; background-color: black; color: white; max-width: 400px; text-align: right; -webkit-box-shadow: 0 20px 15px rgba(0,0,0,0.5); -moz-box-shadow: 0 20px 15px rgba(0,0,0,0.5);   }
+  		.tipsy-inner { -moz-border-radius:5px; -webkit-border-radius:5px; }
+  		.tipsy-north { background-position: top center; }
+  		.tipsy-south { background-position: bottom center; }
+  		.tipsy-east { background-position: right center; }
+  		.tipsy-west { background-position: left center; }
+  		.tipsy-container { border: 1px solid green;}
