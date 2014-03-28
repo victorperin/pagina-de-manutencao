@@ -1,4 +1,4 @@
-P-gina-de-Manuten--o
+Página de Manutenção
 ====================
 
 Uma página em HTML e Javascript de manutenção...
